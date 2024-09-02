@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "A inteligência artificial (IA) é um conjunto de tecnologias que permitem aos computadores executar uma variedade de funções avançadas. Quais são as implicações da IA na privacidade dos dados?",
+        enunciado: "Qual o símbolo das Olímpiadas?"
         alternativas: [
             {
-                texto: "A IA, embora possa desempenhar um papel fundamental na detecção e prevenção de ameaças à segurança.",
-                afirmacao: "afirmação"
+                texto: "Anéis entrelaçados",
+                afirmacao: "Parabéns, você acertou! Os cinco anéis representam os continentes. O anél azul representa a Europa, O amarelo a Àsia, o preto a África, a Oceania verde e vermelho as Américas."
             },
             {
-                texto: "Também pode ser usada como uma ferramenta para a invasão de privacidade.",
-                afirmacao: "afirmação"
+                texto: "Estrelas de cinco pontas",
+                afirmacao: "Infelizmente você errou , mas tenho certeza que com um pouquinho de pesquisa acertará na próxima vez!"
             }
         ]
     },
     {
-        enunciado: "Inteligência artificial criando artistas 100% virtuais; músicas, obra de arte,incentivando o consumo não consciente  prejudicando a tradição e cultura. Como preservar a tradição e a cultura no atual contexto regido pelas inteligências artificiais",
+        enunciado: "Qual a totalidade de medalhas que o Brasil ganhou nas Olímpiadas de 2024?",
         alternativas: [
             {
-                texto: "Realizando pesquisas para saber sobre suas tradições e culturas.",
-                afirmacao: "afirmação"
+                texto: "15 medalhas",
+                afirmacao: "Infelizmente você errou , mas tenho certeza que com um pouquinho de pesquisa acertará na próxima vez!
             },
             {
-                texto: "trabalhando a influência das tradições e culturas em nosso cotidiano",
-                afirmacao: "afirmação"
+                texto: "20 medalhas",
+                afirmacao: "Parabéns, você acertou! Foram 3 medalhas de ouro, 7 de prata e 10 de bronze"
             }
         ]
     },
     {
-        enunciado: "Tomamos como referência que um consumo consciente é aquele do qual o indivíduo compra somente o necessário, Como a sociedade poderia ter um consumo conciente, Buscando informações no IA?",
+        enunciado: "Onde foi as Olímpiadas de 2024?",
         alternativas: [
             {
-                texto: "Buscando informação na legislação da saúde",
-                afirmacao: "afirmação"
+                texto: "Espanha",
+                afirmacao: "Infelizmente você errou , mas tenho certeza que com um pouquinho de pesquisa acertará na próxima vez!"
             },
             {
-                texto: "Confronto das informações da inteligengia artificial e a pessoal",
-                afirmacao: "afirmação"
+                texto: "França",
+                afirmacao: "Parabéns, você acertou! As Olímpiadas de 2024 ocorreram em Paris, na França"
             }
         ]
     }
