@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual o símbolo das Olímpiadas?"
+        enunciado: "Qual o símbolo das Olímpiadas?",
         alternativas: [
             {
                 texto: "Anéis entrelaçados",
@@ -23,7 +23,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "15 medalhas",
-                afirmacao: "Infelizmente você errou , mas tenho certeza que com um pouquinho de pesquisa acertará na próxima vez!
+                afirmacao: "Infelizmente você errou , mas tenho certeza que com um pouquinho de pesquisa acertará na próxima vez!"
             },
             {
                 texto: "20 medalhas",
