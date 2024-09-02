@@ -74,13 +74,13 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcaoSelecionada){
     const afirmacao = opcaoSelecionada.afirmacoes;
-    historiaFinal = afirmacao;
+    historiaFinal+ = afirmacao +" ";
     atual++;
     mostraPergunta();
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "IA mostra o perfil de quem conheçe as Olimpíadas";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
